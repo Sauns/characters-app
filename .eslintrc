@@ -1,0 +1,29 @@
+{
+    "rules": {
+        "no-nested-ternary": "off",
+        "no-underscore-dangle": "off",
+        "consistent-return": "off",
+        "import/extensions": "off",
+        "class-methods-use-this": "off",
+        "no-param-reassign": ["warn", { "props": false }],
+        "react/require-default-props": [
+            "warn",
+            {
+                "ignoreFunctionalComponents": true
+            }
+        ],
+        "no-unneeded-ternary": [
+            "warn",
+            {
+                "defaultAssignment": true
+            }
+        ],
+        "no-console": [
+            "warn",
+            {
+                "allow": ["warn", "error", "table", "dir"]
+            }
+        ],
+        "react/button-has-type": "off"
+    }
+}
